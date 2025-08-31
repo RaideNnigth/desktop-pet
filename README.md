@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+My base:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chat gpt :) 
 
-Currently, two official plugins are available:
+https://www.youtube.com/watch?v=ONpVol7B7AY&ab_channel=EhrenGrenlund
+https://www.youtube.com/watch?v=ML743nrkMHw&ab_channel=TraversyMedia
+https://www.youtube.com/watch?v=6MP48RFhe2Y&ab_channel=WawaSensei
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/pixiv/three-vrm -> npm install three @pixiv/three-vrm
+https://hub.vroid.com/en/characters/4725974646236283895/models/6686632456215277724
 
-## Expanding the ESLint configuration
+https://www.youtube.com/watch?v=257aXLYnKoE&ab_channel=ViennaJS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+three.js
 
-- Configure the top-level `parserOptions` property like this:
+Scene.tsx -> Create a empty scene with a full light, that loads a VRM using three-vrm
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+VRMAvatar.tsx -> simple avatar loader class.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Animation.tsx -> control animations for VRMAvatar.tsx
